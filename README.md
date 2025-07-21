@@ -6,17 +6,26 @@ This repository contains the official implementation of the paper "Flow-Induced 
 
 Our method effectively captures epistemic uncertainty in semantic segmentation tasks. The uncertainty maps below demonstrate how FiD-GP identifies regions of high uncertainty, particularly at object boundaries and ambiguous areas.
 
-### CamVid Segmentation Uncertainty Maps
+### Uncertainty Visualization Results
 
-![CamVid Uncertainty Maps](gif/camvid_uncertainty_maps.gif)
-
-*Uncertainty visualization for CamVid test images. Bright white outlines indicate high uncertainty regions, typically occurring at object boundaries and ambiguous areas.*
-
-### Lindau Sequence Uncertainty Maps
-
-![Lindau Uncertainty Maps](gif/lindau_uncertainty_maps.gif)
-
-*Uncertainty maps for the Lindau driving sequence. Notice how uncertainty is higher at object boundaries (cars, trees, buildings) and road edges, where the model is less confident about pixel classifications.*
+<table>
+<tr>
+<td align="center">
+<img src="gif/camvid_uncertainty_maps.gif" width="400" alt="CamVid Uncertainty Maps">
+<br>
+<strong>CamVid Dataset</strong>
+<br>
+<em>Uncertainty visualization for CamVid test images. Bright white outlines indicate high uncertainty regions, typically occurring at object boundaries and ambiguous areas.</em>
+</td>
+<td align="center">
+<img src="gif/lindau_uncertainty_maps.gif" width="400" alt="Lindau Uncertainty Maps">
+<br>
+<strong>Lindau Driving Sequence</strong>
+<br>
+<em>Uncertainty maps for the Lindau driving sequence. Notice how uncertainty is higher at object boundaries (cars, trees, buildings) and road edges, where the model is less confident about pixel classifications.</em>
+</td>
+</tr>
+</table>
 
 
 ## Installation
