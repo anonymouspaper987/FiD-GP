@@ -116,7 +116,7 @@ python scripts/cifar_prediction.py \
 
 ```bash
 python scripts/camvid_predict.py \
-    --model-path weights/camvid/56_model_miou_0.627.pth \
+    --model-path weights/camvid/112_model_miou_0.627.pth \
     --data-root data/camvid2 \
     --output-dir prediction_results_camvid \
     --inference-config configs/ffg_u_camvid.json \
@@ -142,7 +142,7 @@ python scripts/ood_cifar100_2_cifar10_SVHN.py \
 #### CamVid to Cityscapes
 ```bash
 python scripts/ood_camvid_2_cityspaces.py \
-    --model-path output_camvid_segmentation/92_model_miou_0.623.pth \
+    --model-path output_camvid_segmentation/112_model_miou_0.623.pth \
     --config-path configs/ffg_u_camvid.json \
     --data-root data/camvid2 \
     --cityscapes-root data/cityspaces \

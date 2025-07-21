@@ -152,8 +152,8 @@ def main(seed, num_epochs, inference_config, output_dir, ml_epochs, annealing_ep
         ToTensorV2()
     ])
     
-    train_data = CamVidDataset(root='./data/camvid2', split='train', transform=train_transform)
-    test_data = CamVidDataset(root='./data/camvid2', split='test', transform=val_transform)
+    train_data = CamVidDataset(root='./data/camvid', split='train', transform=train_transform)
+    test_data = CamVidDataset(root='./data/camvid', split='test', transform=val_transform)
     
     train_loader = data.DataLoader(train_data, batch_size=8, shuffle=True, num_workers=4, pin_memory=True)
     test_loader = data.DataLoader(test_data, batch_size=8, shuffle=False, num_workers=4, pin_memory=True)

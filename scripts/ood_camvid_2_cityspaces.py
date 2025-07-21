@@ -32,7 +32,7 @@ CAMVID_CLASSES = ['Sky', 'Building', 'Pole', 'Road', 'Sidewalk', 'Tree',
 NUM_CLASSES = len(CAMVID_CLASSES)
 
 # Configuration
-DATA_ROOT = os.environ.get("DATASETS_PATH", "./data/camvid2")
+DATA_ROOT = os.environ.get("DATASETS_PATH", "./data/camvid")
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 TEST_SAMPLES = 20
 BATCH_SIZE = 4  # Increase batch size

@@ -148,8 +148,8 @@ def compute_energy(probs):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", default="../weights/camvid/56_model_miou_0.627.pth", help="Path to the trained model weights")
-    parser.add_argument("--data-root", default="../data/camvid2", help="Path to CamVid dataset")
+    parser.add_argument("--model-path", default="../weights/camvid/112_model_miou_0.627.pth", help="Path to the trained model weights")
+    parser.add_argument("--data-root", default="../data/camvid", help="Path to CamVid dataset")
     parser.add_argument("--output-dir", default="../prediction_results_camvid", help="Directory to save results")
     parser.add_argument("--inference-config", default="../configs/ffg_u_camvid.json", help="Path to inference config file")
     parser.add_argument("--test-samples", type=int, default=8, help="Number of MC samples for test-time prediction")
