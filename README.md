@@ -10,15 +10,15 @@ Our method effectively captures epistemic uncertainty in semantic segmentation t
 
 <table>
 <tr>
-<td align="center" style="width: 50%;">
-<img src="gif/camvid_uncertainty_maps.gif" style="width: 400px; height: 300px; object-fit: cover;" alt="CamVid Uncertainty Maps">
+<td align="center" style="width: 40%;">
+<img src="gif/camvid_uncertainty_maps.gif" style="width: 350px; height: 300px; object-fit: cover;" alt="CamVid Uncertainty Maps">
 <br>
 <strong>CamVid Dataset</strong>
 <br>
 <em>Uncertainty visualization for CamVid test images. Bright white outlines indicate high uncertainty regions, typically occurring at object boundaries and ambiguous areas.</em>
 </td>
-<td align="center" style="width: 50%;">
-<img src="gif/lindau_uncertainty_maps.gif" style="width: 400px; height: 300px; object-fit: cover;" alt="Lindau Uncertainty Maps">
+<td align="center" style="width: 60%;">
+<img src="gif/lindau_uncertainty_maps.gif" style="width: 500px; height: 300px; object-fit: cover;" alt="Lindau Uncertainty Maps">
 <br>
 <strong>Lindau Driving Sequence</strong>
 <br>
