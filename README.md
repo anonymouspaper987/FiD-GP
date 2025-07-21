@@ -11,7 +11,7 @@ Our method effectively captures epistemic uncertainty in semantic segmentation t
 <table>
 <tr>
 <td align="center" style="width: 40%;">
-<img src="gif/camvid_uncertainty_maps.gif" style="width: 350px; height: 300px; object-fit: cover;" alt="CamVid Uncertainty Maps">
+<img src="gif/camvid_uncertainty_maps.gif" style="width: 350px; height: 250px; object-fit: cover;" alt="CamVid Uncertainty Maps">
 <br>
 <strong>CamVid Dataset</strong>
 <br>
