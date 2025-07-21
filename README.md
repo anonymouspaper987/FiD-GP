@@ -98,7 +98,7 @@ python scripts/camvid_segmentation_train.py \
 
 
 #### CIFAR-100 Classification Prediction
-#### Download the trained model in here: [Google Drive](https://drive.google.com/file/d/1rw0RWz1L0MI9cLX3ZaLFqkQjf-7jNRHu/view?usp=drive_link) 
+#### Download the weights of model: [Google Drive](https://drive.google.com/file/d/1rw0RWz1L0MI9cLX3ZaLFqkQjf-7jNRHu/view?usp=drive_link) 
 ```bash
 python scripts/cifar_prediction.py \
     --model-path weights/cifar100/epoch-135-0.763-0.036.pth \
@@ -111,7 +111,7 @@ python scripts/cifar_prediction.py \
 
 #### CamVid Segmentation Prediction
 
-#### Download the trained model in here: [Google Drive](https://drive.google.com/file/d/1fllkwkeCoaJj_ITi_n9jR77GOXF8qBpf/view?usp=drive_link) 
+#### Download the weights of model: [Google Drive](https://drive.google.com/file/d/1fllkwkeCoaJj_ITi_n9jR77GOXF8qBpf/view?usp=drive_link) 
 
 
 ```bash
