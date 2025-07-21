@@ -15,7 +15,6 @@ prediction_results_camvid/
 weights_cifar100/
 *.pt
 *.png
-*.gif
 *.mp4
 *.avi
 *.mov
